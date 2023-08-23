@@ -1,3 +1,7 @@
+.footer_upper {
+  background-color: #004445;
+}
+
 .useful_links {
   display: flex;
   flex-direction: column;
@@ -9,12 +13,12 @@
 }
 
 .newsletter {
-  display: flex;
+  display: flex !important;
   flex-direction: column !important;
 }
 
 .newsletter input {
-  width: 95%;
+  width: 85%;
   border: none;
   height: 45px;
   margin-bottom: 25px;

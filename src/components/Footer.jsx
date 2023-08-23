@@ -22,16 +22,16 @@ const Footer = () => {
                     <span>FINTER</span>
                   </Grid>
 
-                  <Grid item xs={12} sm={6} md={3}>
+                  <Grid item xs={6} sm={6} md={3}>
                     <LocationOnIcon />
                     <span>Location</span>
                   </Grid>
 
-                  <Grid item xs={12} sm={6} md={3}>
+                  <Grid item xs={6} sm={6} md={3}>
                     <CallIcon />
                     <span>+01 1234567890</span>
                   </Grid>
-                  
+
                   <Grid item xs={12} sm={6} md={3}>
                     <FacebookIcon />
                     <TwitterIcon />
@@ -39,45 +39,51 @@ const Footer = () => {
                     <InstagramIcon />
                   </Grid>
                 </Grid>
-
-                <Grid container spacing={2}>
-                  <Grid item xs={12} lg={3}>
-                    <span>COMPANY</span>
-                    <p>
-                      Randomised words which don't look even slightly
-                      believable. If you are going to use a passage of Lorem
-                      Ipsum, you need to be sure
-                    </p>
-                  </Grid>
-                  <Grid className="newsletter" item xs={12} lg={3}>
-                    <span>NEWSLETTER</span>
-                    <input type="text" placeholder="Enter Your Email" />
-                    <button>Subscribe</button>
-                  </Grid>
-                  <Grid item xs={12} lg={3}>
-                    <span>SERVICES</span>
-                    <p>
-                      Randomised words which don't look even slightly
-                      believable. If you are going to use a passage of Lorem
-                      Ipsum, you need to be sure
-                    </p>
-                  </Grid>
-                  <Grid item xs={12} lg={3}>
-                    <span>USEFUL LINKS</span>
-                    <ul className="useful_links">
-                      <Link className="links" to="/">Home</Link>
-                      <Link className="links" to="/about">About</Link>
-                      <Link className="links" to="/services">Services</Link>
-                      <Link className="links" to="/team">Team</Link>
-                      <Link className="links" to="/contact">Contact Us</Link>
-                    </ul>
-                  </Grid>
-                </Grid>
               </Grid>
             </Grid>
           </Grid>
 
-          <Grid item></Grid>
+          <Grid item>
+            <Grid container spacing={2}>
+              <Grid item xs={12} sm={6} lg={3}>
+                <span>COMPANY</span>
+                <p>
+                  Randomised words which don't look even slightly believable. If
+                  you are going to use a passage of Lorem Ipsum, you need to be
+                  sure
+                </p>
+              </Grid>
+              <Grid className="newsletter" item xs={12} sm={6} lg={3}>
+                <span>NEWSLETTER</span>
+                <input type="text" placeholder="Enter Your Email" />
+                <button>Subscribe</button>
+              </Grid>
+              <Grid item xs={12} sm={6} lg={3}>
+                <span>SERVICES</span>
+                <p>
+                  Randomised words which don't look even slightly believable. If
+                  you are going to use a passage of Lorem Ipsum, you need to be
+                  sure
+                </p>
+              </Grid>
+              <Grid item xs={12} sm={6} lg={3}>
+                <span>USEFUL LINKS</span>
+                <ul className="useful_links">
+                  <Link className="links" to="/">Home</Link>
+                  <Link className="links" to="/about">About</Link>
+                  <Link className="links" to="/services">
+                    Services
+                  </Link>
+                  <Link className="links" to="/team">
+                    Team
+                  </Link>
+                  <Link className="links" to="/contact">
+                    Contact Us
+                  </Link>
+                </ul>
+              </Grid>
+            </Grid>
+          </Grid>
         </Grid>
       </Grid>
 
