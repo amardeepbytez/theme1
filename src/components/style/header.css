@@ -1,0 +1,7 @@
+.navigation {
+  justify-content: space-between;
+}
+
+.footer {
+  flex-direction: column !important;
+}
