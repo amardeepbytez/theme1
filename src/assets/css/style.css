@@ -96,7 +96,7 @@ a:focus {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  z-index: -3;
+  z-index: -3 !important;
 }
 
 .hero_area .hero_bg_box img {
@@ -617,9 +617,9 @@ a:focus {
   background: #2c7873;
 }
 
-.carousel-slider {
-  /* height: 330px !important; */
-}
+/* .carousel-slider {
+  height: 330px !important;
+} */
 
 .carousel .slide.selected {
   -webkit-transform: scale(1.15);

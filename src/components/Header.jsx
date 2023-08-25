@@ -113,7 +113,7 @@ const Header = () => {
               </nav>
             </div>
           </div>
-          <Slider />
+          {/* <Slider /> */}
         </header>
       {/* </div> */}
     </>
