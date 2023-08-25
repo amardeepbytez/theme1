@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Slider from './Slider'
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MailIcon from '@mui/icons-material/Mail';
 import CallIcon from '@mui/icons-material/Call';
@@ -8,9 +9,10 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import SearchIcon from "@mui/icons-material/Search";
-// import "./style/header.css";
 import { Link } from "react-router-dom";
+
 const hemage = require("./../assets/images/hero-bg.jpg");
+
 
 const Header = () => {
   return (
@@ -118,6 +120,7 @@ const Header = () => {
               </nav>
             </div>
           </div>
+          <Slider />
         </header>
       </div>
     </>

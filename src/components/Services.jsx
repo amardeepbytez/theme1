@@ -126,7 +126,13 @@ const Services = () => {
             </div> */}
             <div className="carousel-wrap">
               <div>
-                <Carousel>
+                <Carousel
+                  autoPlay={true}
+                  infiniteLoop={true}
+                  centerMode={true}
+                  showStatus={false}
+                  centerSlidePercentage={33.33}
+                >
                   <div className="item">
                     <div className="box ">
                       <div className="img-box">

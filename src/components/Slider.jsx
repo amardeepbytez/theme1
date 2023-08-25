@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Slider = () => {
   return (
@@ -56,7 +57,7 @@ const Slider = () => {
                         </p>
                         <div className="btn-box">
                           <Link to='/' className="btn1">
-                            Contact Us
+                            Contact Uss
                           </Link>
                         </div>
                       </div>
@@ -82,7 +83,7 @@ const Slider = () => {
                         </p>
                         <div className="btn-box">
                           <Link className="btn1">
-                            Contact Us
+                            Contact Usss
                           </Link>
                         </div>
                       </div>
@@ -99,7 +100,7 @@ const Slider = () => {
                 data-slide="prev"
               >
                 <i className="fa fa-arrow-left" aria-hidden="true"></i>
-                <span className="sr-only">Previous</span>
+                <span className="sr-only"><ArrowBackIcon /></span>
               </a>
               <a
                 className="carousel-control-next"
@@ -108,7 +109,7 @@ const Slider = () => {
                 data-slide="next"
               >
                 <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                <span className="sr-only">Next</span>
+                <span className="sr-only"><ArrowForwardIcon /></span>
               </a>
             </div>
           </div>

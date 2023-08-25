@@ -85,8 +85,8 @@ a:focus {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .hero_area .hero_bg_box {
@@ -218,7 +218,10 @@ a:focus {
 }
 
 .header_section .header_bottom {
-  padding: 15px 0;
+  /* position: -webkit-sticky; */
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .header_section .header_bottom .container-fluid {
@@ -371,6 +374,7 @@ a:focus {
           flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
+  margin-top: 210px;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -607,6 +611,52 @@ a:focus {
 
 .service_section .owl-dots .owl-dot.active {
   background: #2c7873;
+}
+
+.carousel-slider {
+  height: 330px !important;
+}
+
+.carousel .slide.selected {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.carousel .slide {
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.carousel .slide.selected .item .box {
+  background-color: #004445;
+  /* box-shadow: none !important; */
+}
+
+.carousel .slide.selected .item .box .detail-box {
+  color: #ffffff;
+}
+
+.carousel .slide.selected .item .box .img-box {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.carousel .control-dots .dot {
+  width: 15px !important;
+  height: 15px !important;
+  border: none !important;
+  border-radius: 100% !important;
+  margin: 0 2px !important;
+  background-color: #ccc !important;
+  outline: none !important;
+}
+
+.carousel .control-dots .dot.selected {
+  background-color: #004445 !important;
 }
 
 .about_section .row {

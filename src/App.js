@@ -16,9 +16,6 @@ function App() {
   return (
     <>
       <div>
-        {/* <div className="hero_bg_box">
-          <img src={headimage} alt="" />
-        </div> */}
         <BrowserRouter>
           <Header />
           <div>
