@@ -99,8 +99,8 @@ const Slider = () => {
                 role="button"
                 data-slide="prev"
               >
-                <i className="fa fa-arrow-left" aria-hidden="true"></i>
-                <span className="sr-only"><ArrowBackIcon /></span>
+                <i className="fa fa-arrow-left" aria-hidden="true"><ArrowBackIcon /></i>
+                <span className="sr-only"></span>
               </a>
               <a
                 className="carousel-control-next"
@@ -108,8 +108,8 @@ const Slider = () => {
                 role="button"
                 data-slide="next"
               >
-                <i className="fa fa-arrow-right" aria-hidden="true"></i>
-                <span className="sr-only"><ArrowForwardIcon /></span>
+                <i className="fa fa-arrow-right" aria-hidden="true"><ArrowForwardIcon /></i>
+                <span className="sr-only"></span>
               </a>
             </div>
           </div>

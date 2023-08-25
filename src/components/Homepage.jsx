@@ -1,18 +1,18 @@
 import React from "react";
-// import Slider from "./Slider";
 import About from "./About";
 import Team from "./Team";
 import ContactUs from "./ContactUs";
 import Services from "./Services";
+import Client from "./Client";
 
 const Homepage = () => {
   return (
     <>
-      {/* <Slider /> */}
       <About />
       <Services />
       <Team />
       <ContactUs />
+      <Client />
     </>
   );
 };

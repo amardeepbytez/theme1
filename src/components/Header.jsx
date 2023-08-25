@@ -102,19 +102,14 @@ const Header = () => {
                       </Link>
                     </li>
                     <li className="nav-item">
-                      <Link className="nav-link" href="#">
+                      <Link className="nav-link">
                         <i className="fa fa-user" aria-hidden="true"></i>
                         <span>Login</span>
                       </Link>
                     </li>
-                    <form className="form-inline justify-content-center">
-                      <button
-                        className="btn  my-2 my-sm-0 nav_search-btn"
-                        type="submit"
-                      >
-                        <span><SearchIcon /></span>
-                      </button>
-                    </form>
+                    <li className="nav-item">
+                      <span className="nav-link"><SearchIcon /></span>
+                    </li>
                   </ul>
                 </div>
               </nav>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./style/footer.css";
 import { Link } from "react-router-dom";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -9,6 +9,13 @@ import CallIcon from '@mui/icons-material/Call';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Footer = () => {
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    const displayYearElement = document.getElementById("displayYear");
+    if (displayYearElement) {
+      displayYearElement.textContent = currentYear;
+    }
+  }, []);
   return (
     <>
       <section className="info_section ">
@@ -24,11 +31,11 @@ const Footer = () => {
                 <div className="info_contact">
                   <Link to="/">
                     <span><LocationOnIcon /></span>
-                    <h6>Location</h6>
+                    <h6 className="foh6">Location</h6>
                   </Link>
                   <Link to="/">
                     <span><CallIcon /></span>
-                    <h6>+01 1234567890</h6>
+                    <h6 className="foh6">+01 1234567890</h6>
                   </Link>
                 </div>
               </div>
