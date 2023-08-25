@@ -11,16 +11,14 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import SearchIcon from "@mui/icons-material/Search";
 import { Link } from "react-router-dom";
 
-const hemage = require("./../assets/images/hero-bg.jpg");
+// const hemage = require("./../assets/images/hero-bg.jpg");
 
 
 const Header = () => {
   return (
     <>
-      <div className="hero_area">
-        <div className="hero_bg_box">
-          <img src={hemage} alt="" />
-        </div>
+      {/* <div className="hero_area"> */}
+        
         <header className="header_section">
           <div className="header_top">
             <div className="container-fluid header_top_container">
@@ -117,7 +115,7 @@ const Header = () => {
           </div>
           <Slider />
         </header>
-      </div>
+      {/* </div> */}
     </>
   );
 };

@@ -8,11 +8,15 @@ import Team from "./components/Team";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+const headerimage = require('./assets/images/hero-bg.jpg')
 
 function App() {
   return (
     <>
-      <div>
+      <div className="hero_area">
+        <div class="hero_bg_box">
+          <img src={headerimage} alt="" />
+        </div>
         <BrowserRouter>
           <Header />
           <div>

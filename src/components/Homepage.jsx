@@ -3,7 +3,6 @@ import About from "./About";
 import Team from "./Team";
 import ContactUs from "./ContactUs";
 import Services from "./Services";
-import Client from "./Client";
 
 const Homepage = () => {
   return (
@@ -12,7 +11,6 @@ const Homepage = () => {
       <Services />
       <Team />
       <ContactUs />
-      <Client />
     </>
   );
 };

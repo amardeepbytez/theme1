@@ -1,4 +1,5 @@
 import React from "react";
+import Client from "./Client";
 const image = require('./../assets/images/about-img.jpg')
 
 const About = () => {
@@ -35,6 +36,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <Client />
     </div>
   );
 };
