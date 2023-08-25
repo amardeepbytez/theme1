@@ -2,3 +2,10 @@
   text-decoration: none !important;
   color: rgb(255, 255, 255) !important;
 }
+.info_contact Link {
+  display: flex;
+  align-items: center;
+}
+.info_contact Link h6 {
+  text-decoration: none !important;
+}

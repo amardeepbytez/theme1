@@ -150,7 +150,7 @@ a:focus {
           flex: 1;
 }
 
-.header_section .header_top .contact_nav a {
+.header_section .header_top .contact_nav div {
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,7 +163,7 @@ a:focus {
           justify-content: center;
 }
 
-.header_section .header_top .contact_nav a i {
+.header_section .header_top .contact_nav div span {
   margin-right: 5px;
   background-color: #159ec0;
   width: 35px;
@@ -181,7 +181,7 @@ a:focus {
   border-radius: 100%;
 }
 
-.header_section .header_top .contact_nav a:hover i {
+.header_section .header_top .contact_nav div:hover span {
   background-color: #2c7873;
 }
 
@@ -195,11 +195,11 @@ a:focus {
   min-width: 200px;
 }
 
-.header_section .header_top .social_box a i {
+.header_section .header_top .social_box span {
   margin-right: 5px;
   background-color: #159ec0;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -213,7 +213,7 @@ a:focus {
   border-radius: 100%;
 }
 
-.header_section .header_top .social_box a:hover i {
+.header_section .header_top .social_box :hover span {
   background-color: #2c7873;
 }
 
@@ -227,7 +227,7 @@ a:focus {
 }
 
 .navbar-brand {
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: bold;
   font-size: 24px;
 }
@@ -760,9 +760,10 @@ a:focus {
   display: flex;
 }
 
-.contact_section .form_container .btn_box button {
+.contact_section .form_container .btn_box span {
   border: none;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   padding: 12px 55px;
   background-color: #2c7873;
   color: #ffffff;
@@ -773,7 +774,7 @@ a:focus {
   width: 100%;
 }
 
-.contact_section .form_container .btn_box button:hover {
+.contact_section .form_container .btn_box span:hover {
   background-color: transparent;
   color: #2c7873;
 }
@@ -893,7 +894,7 @@ a:focus {
   min-width: 245px;
 }
 
-.info_section .info_contact a {
+.info_section .info_contact Link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -903,7 +904,7 @@ a:focus {
   color: #ffffff;
 }
 
-.info_section .info_contact a i {
+.info_section .info_contact Link span {
   margin-right: 5px;
   font-size: 24px;
 }

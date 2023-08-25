@@ -63,7 +63,7 @@ const ContactUs = () => {
                     </div>
                   </div>
                   <div className="btn_box">
-                    <button>SEND</button>
+                    <span onClick={(e)=>e.preventDefault}>SEND</span>
                   </div>
                 </form>
               </div>
