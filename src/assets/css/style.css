@@ -378,7 +378,8 @@ a:focus {
           flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
-  margin-top: 210px;
+  height: 100vh;
+  margin-top: -65px;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -403,7 +404,7 @@ a:focus {
 
 .slider_section .detail-box h1 {
   font-weight: 600;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   color: #ffffff;
 }
 
@@ -481,6 +482,10 @@ a:focus {
 
 .slider_section .carousel_btn-box .carousel-control-next {
   right: 25px;
+}
+
+.service_section {
+  background: white;
 }
 
 .service_section .heading_container {
@@ -649,6 +654,10 @@ a:focus {
           filter: brightness(0) invert(1);
 }
 
+.carousel .control-dots {
+  display: none;
+}
+
 .carousel .control-dots .dot {
   width: 15px !important;
   height: 15px !important;
@@ -661,6 +670,10 @@ a:focus {
 
 .carousel .control-dots .dot.selected {
   background-color: #004445 !important;
+}
+
+.about_section {
+  background: white;
 }
 
 .about_section .row {
@@ -699,6 +712,10 @@ a:focus {
 .about_section .detail-box button:hover {
   background-color: transparent;
   color: #2c7873;
+}
+
+.team_section {
+  background: white;
 }
 
 .team_section .box {
@@ -839,6 +856,10 @@ a:focus {
 
 .contact_section .img-box img {
   min-width: 100%;
+}
+
+.client_section {
+  background: white;
 }
 
 .client_section .client_container {
